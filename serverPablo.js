@@ -48,7 +48,7 @@ let findModo = arrObj.find( item => item.clave.toLowerCase() == 'modo')
 
 facebookId = findFacebookId ? findFacebookId.valor : process.env.FACEBOOK_CLIENT_ID
 facebookSecret = findFacebookSecret ? findFacebookSecret.valor : process.env.FACEBOOK_CLIENT_SECRET
-port = findPort ? findPort.valor : process.env.PORT
+port = findPort ? findPort.valor : process.env.PORT || 3232
 modo = findModo ? findModo.valor : process.env.MODO
 
 // console.log(process)

@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
+    "start": "node serverPablo.js",
     "artilleryConLog": "artillery quick --count 10 -n 20 http://localhost:3232/info > resultado_profilerConLog.txt"
   },
   "keywords": [],
